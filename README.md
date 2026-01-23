@@ -3,8 +3,6 @@
 Reusable Contao **content element** that renders a 4-person **members cutout grid** (left / top / right / bottom).  
 Designed to be **theme-agnostic**: the bundle outputs clean HTML hooks, styling is handled in your project CSS.
 
-Repository: https://github.com/vtxm-h/members_grid
-
 ---
 
 ## Features
