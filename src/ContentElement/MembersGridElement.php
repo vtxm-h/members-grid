@@ -1,0 +1,11 @@
+<?php
+declare(strict_types=1);
+
+namespace Vendor\MembersGridBundle\ContentElement;
+
+use Contao\ContentElement;
+
+class MembersGridElement extends ContentElement
+{
+    protected $strTemplate = 'ce_members_grid';
+}
