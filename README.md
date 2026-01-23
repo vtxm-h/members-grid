@@ -8,15 +8,10 @@ Designed to be **theme-agnostic**: the bundle outputs clean HTML hooks, styling 
 ## Features
 
 - Content element: **Members grid**
-- 4 slots:
-  - Left
-  - Top (center)
-  - Right
-  - Bottom (center)
+- 4 slots
 - Each slot:
   - Image (UUID via fileTree)
   - Caption/name (text)
-- Neutral markup and class names (no project-specific naming)
 - Works with **Contao 4.13**
 
 
