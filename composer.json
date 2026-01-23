@@ -1,0 +1,18 @@
+{
+  "name": "vendor/contao-members-grid-bundle",
+  "description": "Contao 4.13 content element: Members grid (4 cutouts)",
+  "type": "contao-bundle",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4 || ^8.0 || ^8.1",
+    "contao/core-bundle": "^4.13"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vendor\\MembersGridBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "Vendor\\MembersGridBundle\\ContaoManager\\Plugin"
+  }
+}
