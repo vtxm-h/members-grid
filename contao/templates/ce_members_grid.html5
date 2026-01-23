@@ -1,0 +1,40 @@
+<?php
+declare(strict_types=1);
+
+use Contao\FilesModel;
+use Contao\StringUtil;
+
+$uuidToPath = static function ($uuid): ?string {
+    if (!$uuid) return null;
+    $uuid = StringUtil::binToUuid($uuid);
+    $file = FilesModel::findByUuid($uuid);
+    return $file ? $file->path : null;
+};
+
+$items = [
+    'left' => ['img' => $uuidToPath($this->member_left_img), 'name' => (string) $this->member_left_name],
+    'top'  => ['img' => $uuidToPath($this->member_top_img), 'name' => (string) $this->member_top_name],
+    'right'=> ['img' => $uuidToPath($this->member_right_img), 'name' => (string) $this->member_right_name],
+    'bottom'=>['img' => $uuidToPath($this->member_bottom_img), 'name' => (string) $this->member_bottom_name],
+];
+?>
+
+<div class="<?= $this->class ?> block"<?= $this->cssID ?>>
+  <?php if ($this->headline): ?>
+    <<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
+  <?php endif; ?>
+
+  <div class="members-grid" data-members-grid>
+    <?php foreach ($items as $pos => $it): ?>
+      <?php if (!$it['img'] && !$it['name']) continue; ?>
+      <figure class="member member--<?= $pos ?>">
+        <?php if ($it['img']): ?>
+          <img src="<?= $it['img'] ?>" alt="<?= htmlspecialchars($it['name'] ?: 'Member', ENT_QUOTES) ?>">
+        <?php endif; ?>
+        <?php if ($it['name']): ?>
+          <figcaption><?= $it['name'] ?></figcaption>
+        <?php endif; ?>
+      </figure>
+    <?php endforeach; ?>
+  </div>
+</div>
