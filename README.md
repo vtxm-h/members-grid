@@ -17,7 +17,7 @@ Designed to be **theme-agnostic**: the bundle outputs clean HTML hooks, styling 
 
 ## Requirements
 
-- PHP: `^7.4 || ^8.0 || ^8.1`
+- PHP: `^8.0`
 - Contao: `^4.13`
 
 
