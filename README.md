@@ -14,14 +14,6 @@ Designed to be **theme-agnostic**: the bundle outputs clean HTML hooks, styling 
 - Works with **Contao 4.13**
 
 
-
-## Requirements
-
-- PHP: `^8.0`
-- Contao: `^4.13`
-
-
-
 ## Installation (via Composer / Contao Manager)
 
 Add the repository to your **Contao project** `composer.json` (root of the Contao installation):
@@ -40,6 +32,8 @@ Add the repository to your **Contao project** `composer.json` (root of the Conta
 
 Contao 4.13
 PHP 8.0+
+
+
 
 ## License
 
