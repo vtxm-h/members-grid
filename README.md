@@ -11,7 +11,6 @@ Designed to be **theme-agnostic**: the bundle outputs clean HTML hooks, styling 
 - 4 slots
 - Image (UUID via fileTree)
 - Caption/name (text)
-- Works with **Contao 4.13**
 
 
 ## Installation (via Composer / Contao Manager)
