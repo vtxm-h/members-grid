@@ -31,7 +31,7 @@ Add the repository to your **Contao project** `composer.json` (root of the Conta
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/vtxm-h/members_grid"
+      "url": "https://github.com/vtxm-h/members-grid"
     }
   ]
 }
