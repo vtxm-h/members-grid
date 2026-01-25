@@ -29,7 +29,7 @@ Add the repository to your **Contao project** `composer.json` (root of the Conta
   ]
 }
 ```
-
+Installation
 ```json
 composer require vtxm-h/members-grid
 ```
