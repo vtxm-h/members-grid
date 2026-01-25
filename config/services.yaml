@@ -1,9 +1,0 @@
-services:
-  _defaults:
-    autowire: true
-    autoconfigure: true
-    public: false
-
-  Vendor\MembersGridBundle\ContentElement\MembersGridElement:
-    tags:
-      - { name: contao.content_element, category: components, type: members_grid }
