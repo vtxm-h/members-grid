@@ -12,7 +12,7 @@ Designed to be **theme-agnostic**: the bundle outputs clean HTML hooks, styling 
 - Image (UUID via fileTree)
 - Caption/name (text)
 
-##Template
+## Template
 ce_members_grid.html5
 
 ## Installation (via Composer / Contao Manager)
