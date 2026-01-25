@@ -35,3 +35,12 @@ Add the repository to your **Contao project** `composer.json` (root of the Conta
     }
   ]
 }
+```
+## Compatibility
+
+Contao 4.13
+PHP 8.0+
+
+## License
+
+MIT
