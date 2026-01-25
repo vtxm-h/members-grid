@@ -1,4 +1,4 @@
-# Members Grid Bundle (Contao 4.13)
+# Members Grid Bundle (Contao)
 
 Reusable Contao **content element** that renders a 4-person **members cutout grid** (left / top / right / bottom).  
 Designed to be **theme-agnostic**: the bundle outputs clean HTML hooks, styling is handled in your project CSS.
